@@ -1,0 +1,503 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ASO_ZEROCHECK	mad.h	163;"	d
+BLOCK_SIZE	eros.c	13;"	d	file:
+BORD	mouse.c	39;"	d	file:
+BUFSIZE	ccc.c	45;"	d	file:
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wall -g -c -I..\/jpeg-8\/ -I..\/freetype-2.3.11\/include$/;"	m
+C_HEIGHT	mouse.c	37;"	d	file:
+C_WIDTH	mouse.c	36;"	d	file:
+DEBUG	disp-jpeg.c	10;"	d	file:
+DEBUG	ymqqq.c	11;"	d	file:
+FB_DEVICE	fb.c	13;"	d	file:
+FPM_INTEL	mad.h	27;"	d
+LDFLAGS	Makefile	/^LDFLAGS = -L..\/jpeg-8\/.libs\/ -ljpeg -L..\/freetype-2.3.11\/objs\/.libs -lfreetype -lpthread -L \/home\/yaomoon\/study\/dpf-30\/libmad-0.15.0b\/.libs\/ -lmad$/;"	m
+LIBMAD_BIT_H	mad.h	534;"	d
+LIBMAD_DECODER_H	mad.h	879;"	d
+LIBMAD_FIXED_H	mad.h	68;"	d
+LIBMAD_FRAME_H	mad.h	733;"	d
+LIBMAD_STREAM_H	mad.h	645;"	d
+LIBMAD_SYNTH_H	mad.h	830;"	d
+LIBMAD_TIMER_H	mad.h	563;"	d
+LIBMAD_VERSION_H	mad.h	39;"	d
+MAD_AUTHOR	mad.h	55;"	d
+MAD_BUFFER_GUARD	mad.h	648;"	d
+MAD_BUFFER_MDLEN	mad.h	649;"	d
+MAD_DECODER_MODE_ASYNC	mad.h	/^  MAD_DECODER_MODE_ASYNC$/;"	e	enum:mad_decoder_mode
+MAD_DECODER_MODE_SYNC	mad.h	/^  MAD_DECODER_MODE_SYNC  = 0,$/;"	e	enum:mad_decoder_mode
+MAD_EMAIL	mad.h	56;"	d
+MAD_EMPHASIS_50_15_US	mad.h	/^  MAD_EMPHASIS_50_15_US	  = 1,		\/* 50\/15 microseconds emphasis *\/$/;"	e	enum:mad_emphasis
+MAD_EMPHASIS_CCITT_J_17	mad.h	/^  MAD_EMPHASIS_CCITT_J_17 = 3,		\/* CCITT J.17 emphasis *\/$/;"	e	enum:mad_emphasis
+MAD_EMPHASIS_NONE	mad.h	/^  MAD_EMPHASIS_NONE	  = 0,		\/* no emphasis *\/$/;"	e	enum:mad_emphasis
+MAD_EMPHASIS_RESERVED	mad.h	/^  MAD_EMPHASIS_RESERVED   = 2		\/* unknown emphasis *\/$/;"	e	enum:mad_emphasis
+MAD_ERROR_BADBIGVALUES	mad.h	/^  MAD_ERROR_BADBIGVALUES   = 0x0232,	\/* bad big_values count *\/$/;"	e	enum:mad_error
+MAD_ERROR_BADBITALLOC	mad.h	/^  MAD_ERROR_BADBITALLOC	   = 0x0211,	\/* forbidden bit allocation value *\/$/;"	e	enum:mad_error
+MAD_ERROR_BADBITRATE	mad.h	/^  MAD_ERROR_BADBITRATE	   = 0x0103,	\/* forbidden bitrate value *\/$/;"	e	enum:mad_error
+MAD_ERROR_BADBLOCKTYPE	mad.h	/^  MAD_ERROR_BADBLOCKTYPE   = 0x0233,	\/* reserved block_type *\/$/;"	e	enum:mad_error
+MAD_ERROR_BADCRC	mad.h	/^  MAD_ERROR_BADCRC	   = 0x0201,	\/* CRC check failed *\/$/;"	e	enum:mad_error
+MAD_ERROR_BADDATAPTR	mad.h	/^  MAD_ERROR_BADDATAPTR	   = 0x0235,	\/* bad main_data_begin pointer *\/$/;"	e	enum:mad_error
+MAD_ERROR_BADEMPHASIS	mad.h	/^  MAD_ERROR_BADEMPHASIS	   = 0x0105,	\/* reserved emphasis value *\/$/;"	e	enum:mad_error
+MAD_ERROR_BADFRAMELEN	mad.h	/^  MAD_ERROR_BADFRAMELEN	   = 0x0231,	\/* bad frame length *\/$/;"	e	enum:mad_error
+MAD_ERROR_BADHUFFDATA	mad.h	/^  MAD_ERROR_BADHUFFDATA	   = 0x0238,	\/* Huffman data overrun *\/$/;"	e	enum:mad_error
+MAD_ERROR_BADHUFFTABLE	mad.h	/^  MAD_ERROR_BADHUFFTABLE   = 0x0237,	\/* bad Huffman table select *\/$/;"	e	enum:mad_error
+MAD_ERROR_BADLAYER	mad.h	/^  MAD_ERROR_BADLAYER	   = 0x0102,	\/* reserved header layer value *\/$/;"	e	enum:mad_error
+MAD_ERROR_BADPART3LEN	mad.h	/^  MAD_ERROR_BADPART3LEN	   = 0x0236,	\/* bad audio data length *\/$/;"	e	enum:mad_error
+MAD_ERROR_BADSAMPLERATE	mad.h	/^  MAD_ERROR_BADSAMPLERATE  = 0x0104,	\/* reserved sample frequency value *\/$/;"	e	enum:mad_error
+MAD_ERROR_BADSCALEFACTOR	mad.h	/^  MAD_ERROR_BADSCALEFACTOR = 0x0221,	\/* bad scalefactor index *\/$/;"	e	enum:mad_error
+MAD_ERROR_BADSCFSI	mad.h	/^  MAD_ERROR_BADSCFSI	   = 0x0234,	\/* bad scalefactor selection info *\/$/;"	e	enum:mad_error
+MAD_ERROR_BADSTEREO	mad.h	/^  MAD_ERROR_BADSTEREO	   = 0x0239	\/* incompatible block_type for JS *\/$/;"	e	enum:mad_error
+MAD_ERROR_BUFLEN	mad.h	/^  MAD_ERROR_BUFLEN	   = 0x0001,	\/* input buffer too small (or EOF) *\/$/;"	e	enum:mad_error
+MAD_ERROR_BUFPTR	mad.h	/^  MAD_ERROR_BUFPTR	   = 0x0002,	\/* invalid (null) buffer pointer *\/$/;"	e	enum:mad_error
+MAD_ERROR_LOSTSYNC	mad.h	/^  MAD_ERROR_LOSTSYNC	   = 0x0101,	\/* lost synchronization *\/$/;"	e	enum:mad_error
+MAD_ERROR_NOMEM	mad.h	/^  MAD_ERROR_NOMEM	   = 0x0031,	\/* not enough memory *\/$/;"	e	enum:mad_error
+MAD_ERROR_NONE	mad.h	/^  MAD_ERROR_NONE	   = 0x0000,	\/* no error *\/$/;"	e	enum:mad_error
+MAD_F	mad.h	120;"	d
+MAD_F	mad.h	124;"	d
+MAD_F	mad.h	130;"	d
+MAD_F	mad.h	157;"	d
+MAD_F	mad.h	158;"	d
+MAD_FLAG_COPYRIGHT	mad.h	/^  MAD_FLAG_COPYRIGHT	= 0x0020,	\/* frame is copyright *\/$/;"	e	enum:__anon5
+MAD_FLAG_FREEFORMAT	mad.h	/^  MAD_FLAG_FREEFORMAT	= 0x0400,	\/* uses free format bitrate *\/$/;"	e	enum:__anon5
+MAD_FLAG_INCOMPLETE	mad.h	/^  MAD_FLAG_INCOMPLETE	= 0x0008,	\/* header but not data is decoded *\/$/;"	e	enum:__anon5
+MAD_FLAG_I_STEREO	mad.h	/^  MAD_FLAG_I_STEREO	= 0x0100,	\/* uses intensity joint stereo *\/$/;"	e	enum:__anon5
+MAD_FLAG_LSF_EXT	mad.h	/^  MAD_FLAG_LSF_EXT	= 0x1000,	\/* lower sampling freq. extension *\/$/;"	e	enum:__anon5
+MAD_FLAG_MC_EXT	mad.h	/^  MAD_FLAG_MC_EXT	= 0x2000,	\/* multichannel audio extension *\/$/;"	e	enum:__anon5
+MAD_FLAG_MPEG_2_5_EXT	mad.h	/^  MAD_FLAG_MPEG_2_5_EXT	= 0x4000	\/* MPEG 2.5 (unofficial) extension *\/$/;"	e	enum:__anon5
+MAD_FLAG_MS_STEREO	mad.h	/^  MAD_FLAG_MS_STEREO	= 0x0200,	\/* uses middle\/side joint stereo *\/$/;"	e	enum:__anon5
+MAD_FLAG_NPRIVATE_III	mad.h	/^  MAD_FLAG_NPRIVATE_III	= 0x0007,	\/* number of Layer III private bits *\/$/;"	e	enum:__anon5
+MAD_FLAG_ORIGINAL	mad.h	/^  MAD_FLAG_ORIGINAL	= 0x0040,	\/* frame is original (else copy) *\/$/;"	e	enum:__anon5
+MAD_FLAG_PADDING	mad.h	/^  MAD_FLAG_PADDING	= 0x0080,	\/* frame has additional slot *\/$/;"	e	enum:__anon5
+MAD_FLAG_PROTECTION	mad.h	/^  MAD_FLAG_PROTECTION	= 0x0010,	\/* frame has CRC protection *\/$/;"	e	enum:__anon5
+MAD_FLOW_BREAK	mad.h	/^  MAD_FLOW_BREAK    = 0x0011,	\/* stop decoding and signal an error *\/$/;"	e	enum:mad_flow
+MAD_FLOW_CONTINUE	mad.h	/^  MAD_FLOW_CONTINUE = 0x0000,	\/* continue normally *\/$/;"	e	enum:mad_flow
+MAD_FLOW_IGNORE	mad.h	/^  MAD_FLOW_IGNORE   = 0x0020	\/* ignore the current frame *\/$/;"	e	enum:mad_flow
+MAD_FLOW_STOP	mad.h	/^  MAD_FLOW_STOP     = 0x0010,	\/* stop decoding normally *\/$/;"	e	enum:mad_flow
+MAD_F_FRACBITS	mad.h	117;"	d
+MAD_F_MAX	mad.h	136;"	d
+MAD_F_MIN	mad.h	135;"	d
+MAD_F_ML0	mad.h	351;"	d
+MAD_F_ML0	mad.h	491;"	d
+MAD_F_ML0	mad.h	498;"	d
+MAD_F_MLA	mad.h	224;"	d
+MAD_F_MLA	mad.h	303;"	d
+MAD_F_MLA	mad.h	342;"	d
+MAD_F_MLA	mad.h	355;"	d
+MAD_F_MLA	mad.h	405;"	d
+MAD_F_MLA	mad.h	492;"	d
+MAD_F_MLN	mad.h	308;"	d
+MAD_F_MLN	mad.h	493;"	d
+MAD_F_MLN	mad.h	502;"	d
+MAD_F_MLX	mad.h	214;"	d
+MAD_F_MLX	mad.h	298;"	d
+MAD_F_MLX	mad.h	336;"	d
+MAD_F_MLX	mad.h	376;"	d
+MAD_F_MLX	mad.h	390;"	d
+MAD_F_MLZ	mad.h	359;"	d
+MAD_F_MLZ	mad.h	494;"	d
+MAD_F_MLZ	mad.h	506;"	d
+MAD_F_ONE	mad.h	138;"	d
+MAD_F_SCALEBITS	mad.h	181;"	d
+MAD_F_SCALEBITS	mad.h	267;"	d
+MAD_F_SCALEBITS	mad.h	326;"	d
+MAD_F_SCALEBITS	mad.h	365;"	d
+MAD_F_SCALEBITS	mad.h	451;"	d
+MAD_F_SCALEBITS	mad.h	521;"	d
+MAD_LAYER_I	mad.h	/^  MAD_LAYER_I   = 1,			\/* Layer I *\/$/;"	e	enum:mad_layer
+MAD_LAYER_II	mad.h	/^  MAD_LAYER_II  = 2,			\/* Layer II *\/$/;"	e	enum:mad_layer
+MAD_LAYER_III	mad.h	/^  MAD_LAYER_III = 3			\/* Layer III *\/$/;"	e	enum:mad_layer
+MAD_MODE_DUAL_CHANNEL	mad.h	/^  MAD_MODE_DUAL_CHANNEL	  = 1,		\/* dual channel *\/$/;"	e	enum:mad_mode
+MAD_MODE_JOINT_STEREO	mad.h	/^  MAD_MODE_JOINT_STEREO	  = 2,		\/* joint (MS\/intensity) stereo *\/$/;"	e	enum:mad_mode
+MAD_MODE_SINGLE_CHANNEL	mad.h	/^  MAD_MODE_SINGLE_CHANNEL = 0,		\/* single channel *\/$/;"	e	enum:mad_mode
+MAD_MODE_STEREO	mad.h	/^  MAD_MODE_STEREO	  = 3		\/* normal LR stereo *\/$/;"	e	enum:mad_mode
+MAD_NCHANNELS	mad.h	783;"	d
+MAD_NSBSAMPLES	mad.h	784;"	d
+MAD_OPTION_HALFSAMPLERATE	mad.h	/^  MAD_OPTION_HALFSAMPLERATE = 0x0002	\/* generate PCM at 1\/2 sample rate *\/$/;"	e	enum:__anon4
+MAD_OPTION_IGNORECRC	mad.h	/^  MAD_OPTION_IGNORECRC      = 0x0001,	\/* ignore CRC errors *\/$/;"	e	enum:__anon4
+MAD_PCM_CHANNEL_DUAL_1	mad.h	/^  MAD_PCM_CHANNEL_DUAL_1 = 0,$/;"	e	enum:__anon8
+MAD_PCM_CHANNEL_DUAL_2	mad.h	/^  MAD_PCM_CHANNEL_DUAL_2 = 1$/;"	e	enum:__anon8
+MAD_PCM_CHANNEL_SINGLE	mad.h	/^  MAD_PCM_CHANNEL_SINGLE = 0$/;"	e	enum:__anon7
+MAD_PCM_CHANNEL_STEREO_LEFT	mad.h	/^  MAD_PCM_CHANNEL_STEREO_LEFT  = 0,$/;"	e	enum:__anon9
+MAD_PCM_CHANNEL_STEREO_RIGHT	mad.h	/^  MAD_PCM_CHANNEL_STEREO_RIGHT = 1$/;"	e	enum:__anon9
+MAD_PRIVATE_HEADER	mad.h	/^  MAD_PRIVATE_HEADER	= 0x0100,	\/* header private bit *\/$/;"	e	enum:__anon6
+MAD_PRIVATE_III	mad.h	/^  MAD_PRIVATE_III	= 0x001f	\/* Layer III private bits (up to 5) *\/$/;"	e	enum:__anon6
+MAD_PUBLISHYEAR	mad.h	54;"	d
+MAD_RECOVERABLE	mad.h	679;"	d
+MAD_TIMER_RESOLUTION	mad.h	572;"	d
+MAD_UNITS_11025_HZ	mad.h	/^  MAD_UNITS_11025_HZ	 = 11025,$/;"	e	enum:mad_units
+MAD_UNITS_12000_HZ	mad.h	/^  MAD_UNITS_12000_HZ	 = 12000,$/;"	e	enum:mad_units
+MAD_UNITS_16000_HZ	mad.h	/^  MAD_UNITS_16000_HZ	 = 16000,$/;"	e	enum:mad_units
+MAD_UNITS_22050_HZ	mad.h	/^  MAD_UNITS_22050_HZ	 = 22050,$/;"	e	enum:mad_units
+MAD_UNITS_23_976_FPS	mad.h	/^  MAD_UNITS_23_976_FPS	 =   -24,$/;"	e	enum:mad_units
+MAD_UNITS_24000_HZ	mad.h	/^  MAD_UNITS_24000_HZ	 = 24000,$/;"	e	enum:mad_units
+MAD_UNITS_24_975_FPS	mad.h	/^  MAD_UNITS_24_975_FPS	 =   -25,$/;"	e	enum:mad_units
+MAD_UNITS_24_FPS	mad.h	/^  MAD_UNITS_24_FPS	 =    24,$/;"	e	enum:mad_units
+MAD_UNITS_25_FPS	mad.h	/^  MAD_UNITS_25_FPS	 =    25,$/;"	e	enum:mad_units
+MAD_UNITS_29_97_FPS	mad.h	/^  MAD_UNITS_29_97_FPS	 =   -30,$/;"	e	enum:mad_units
+MAD_UNITS_30_FPS	mad.h	/^  MAD_UNITS_30_FPS	 =    30,$/;"	e	enum:mad_units
+MAD_UNITS_32000_HZ	mad.h	/^  MAD_UNITS_32000_HZ	 = 32000,$/;"	e	enum:mad_units
+MAD_UNITS_44100_HZ	mad.h	/^  MAD_UNITS_44100_HZ	 = 44100,$/;"	e	enum:mad_units
+MAD_UNITS_47_952_FPS	mad.h	/^  MAD_UNITS_47_952_FPS	 =   -48,$/;"	e	enum:mad_units
+MAD_UNITS_48000_HZ	mad.h	/^  MAD_UNITS_48000_HZ	 = 48000,$/;"	e	enum:mad_units
+MAD_UNITS_48_FPS	mad.h	/^  MAD_UNITS_48_FPS	 =    48,$/;"	e	enum:mad_units
+MAD_UNITS_49_95_FPS	mad.h	/^  MAD_UNITS_49_95_FPS	 =   -50,$/;"	e	enum:mad_units
+MAD_UNITS_50_FPS	mad.h	/^  MAD_UNITS_50_FPS	 =    50,$/;"	e	enum:mad_units
+MAD_UNITS_59_94_FPS	mad.h	/^  MAD_UNITS_59_94_FPS	 =   -60$/;"	e	enum:mad_units
+MAD_UNITS_60_FPS	mad.h	/^  MAD_UNITS_60_FPS	 =    60,$/;"	e	enum:mad_units
+MAD_UNITS_75_FPS	mad.h	/^  MAD_UNITS_75_FPS	 =    75,$/;"	e	enum:mad_units
+MAD_UNITS_8000_HZ	mad.h	/^  MAD_UNITS_8000_HZ	 =  8000,$/;"	e	enum:mad_units
+MAD_UNITS_CENTISECONDS	mad.h	/^  MAD_UNITS_CENTISECONDS =   100,$/;"	e	enum:mad_units
+MAD_UNITS_DECISECONDS	mad.h	/^  MAD_UNITS_DECISECONDS	 =    10,$/;"	e	enum:mad_units
+MAD_UNITS_HOURS	mad.h	/^  MAD_UNITS_HOURS	 =    -2,$/;"	e	enum:mad_units
+MAD_UNITS_MILLISECONDS	mad.h	/^  MAD_UNITS_MILLISECONDS =  1000,$/;"	e	enum:mad_units
+MAD_UNITS_MINUTES	mad.h	/^  MAD_UNITS_MINUTES	 =    -1,$/;"	e	enum:mad_units
+MAD_UNITS_SECONDS	mad.h	/^  MAD_UNITS_SECONDS	 =     0,$/;"	e	enum:mad_units
+MAD_VERSION	mad.h	49;"	d
+MAD_VERSION_EXTRA	mad.h	44;"	d
+MAD_VERSION_MAJOR	mad.h	41;"	d
+MAD_VERSION_MINOR	mad.h	42;"	d
+MAD_VERSION_PATCH	mad.h	43;"	d
+MAD_VERSION_STRING	mad.h	47;"	d
+MAD_VERSION_STRINGIZE	mad.h	46;"	d
+MAXLINE	main.c	23;"	d	file:
+MAX_OFFSET	eros.c	15;"	d	file:
+MIDDLE_X	eros.c	14;"	d	file:
+NODE	link.c	/^jpeg_file_t * NODE(const char *filename, const char *info,$/;"	f
+SIZEOF_INT	mad.h	31;"	d
+SIZEOF_LONG	mad.h	32;"	d
+SIZEOF_LONG_LONG	mad.h	33;"	d
+T___	mouse.c	38;"	d	file:
+X___	mouse.c	40;"	d	file:
+_CCC_H_	ccc.h	3;"	d
+_START_H_	start.h	2;"	d
+__COMMON_H__	common.h	2;"	d
+__mOUSE_H__	mouse.h	7;"	d
+anc_bitlen	mad.h	/^  unsigned int anc_bitlen;		\/* number of ancillary bits *\/$/;"	m	struct:mad_stream
+anc_ptr	mad.h	/^  struct mad_bitptr anc_ptr;		\/* ancillary bits pointer *\/$/;"	m	struct:mad_stream	typeref:struct:mad_stream::mad_bitptr
+assigned	eros.c	/^char assigned[16][19] = {{0,0}};$/;"	v
+async	mad.h	/^  } async;$/;"	m	struct:mad_decoder	typeref:struct:mad_decoder::__anon10
+back_ground	eros.c	/^u32_t *back_ground;$/;"	v
+bitrate	mad.h	/^  unsigned long bitrate;		\/* stream bitrate (bps) *\/$/;"	m	struct:mad_header
+block_blue	eros.c	/^u32_t *block_blue, *block_green, *block_red;$/;"	v
+block_color	eros.c	/^u32_t *block_color[3];$/;"	v
+block_green	eros.c	/^u32_t *block_blue, *block_green, *block_red;$/;"	v
+block_next	eros.c	/^int block_next = 0;$/;"	v
+block_num	eros.c	/^int block_num = 0;$/;"	v
+block_red	eros.c	/^u32_t *block_blue, *block_green, *block_red;$/;"	v
+bpp	common.h	/^	int bpp;				  \/* bits per pixel *\/$/;"	m	struct:__anon1
+buf24	ymqqq.c	/^u8_t *buf24;$/;"	v
+buf32	disp-jpeg.c	/^u32_t *buf32;$/;"	v
+bufend	mad.h	/^  unsigned char const *bufend;		\/* end of buffer *\/$/;"	m	struct:mad_stream
+buffer	ccc.c	/^struct buffer {$/;"	s	file:
+buffer	mad.h	/^  unsigned char const *buffer;		\/* input bitstream buffer *\/$/;"	m	struct:mad_stream
+button	mouse.c	/^	int button;$/;"	m	struct:__anon12	file:
+button	mouse.h	/^	int button;$/;"	m	struct:__anon13
+byte	mad.h	/^  unsigned char const *byte;$/;"	m	struct:mad_bitptr
+c_timer	eros.c	/^void *c_timer()$/;"	f
+cache	mad.h	/^  unsigned short cache;$/;"	m	struct:mad_bitptr
+cartoon_pic	pic_change.c	/^void cartoon_pic(fb_info fb_inf)$/;"	f
+cb_data	mad.h	/^  void *cb_data;$/;"	m	struct:mad_decoder
+change_flag	eros.c	/^int change_flag = 0;$/;"	v
+channels	mad.h	/^  unsigned short channels;		\/* number of channels *\/$/;"	m	struct:mad_pcm
+clean_font	font.c	/^int clean_font(const char *code,int *len,int x,int y,fb_info fb, u32_t color)$/;"	f
+clean_string	font.c	/^int clean_string (const char * buf, int x, int y, fb_info fb_inf,u32_t color)$/;"	f
+clear_flag	eros.c	/^int clear_flag = 0;$/;"	v
+clear_handle	eros.c	/^void clear_handle(fb_info fb_inf)$/;"	f
+color	eros.c	/^int color = 0;$/;"	v
+color_next	eros.c	/^int color_next = 0;$/;"	v
+counter_mutex	main.c	/^pthread_mutex_t counter_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+cr_spiral	ymqqq.c	/^int cr_spiral(char *filename, fb_info fb_inf)$/;"	f
+crc_check	mad.h	/^  unsigned short crc_check;		\/* frame CRC accumulator *\/$/;"	m	struct:mad_header
+crc_target	mad.h	/^  unsigned short crc_target;		\/* final target CRC checksum *\/$/;"	m	struct:mad_header
+current_pic	start.c	/^int current_pic = 10;$/;"	v
+cursor_pixel	mouse.c	/^static unsigned long cursor_pixel[C_WIDTH * C_HEIGHT] = {$/;"	v	file:
+decode	ccc.c	/^ int decode(mp3_file *mp3fp)$/;"	f
+decode_block	eros.c	/^void decode_block(fb_info fb_inf)$/;"	f
+decode_jpeg	jpeg.c	/^u_char *decode_jpeg (const char *filename, fb_info *jpeg_inf)$/;"	f
+delay	ymqqq.c	/^void delay(int z)$/;"	f
+disp_expand	ymqqq.c	/^int disp_expand(char *filename, fb_info fb_inf)$/;"	f
+display_font	font.c	/^int display_font(const char *code,int *len,int x,int y,fb_info fb, u32_t color)$/;"	f
+display_game	pic_change.c	/^int display_game(char *filename, fb_info old_inf,int k, int pic)$/;"	f
+display_jpeg	disp-jpeg.c	/^int display_jpeg(char *filename, fb_info fb_inf)$/;"	f
+display_kaiji	disp-jpeg.c	/^int display_kaiji(fb_info fb_inf)$/;"	f
+display_music_jpeg	disp-jpeg.c	/^int display_music_jpeg(fb_info fb_inf,int x1,int y1,int x2,int y2)$/;"	f
+display_muspic	disp-jpeg.c	/^int display_muspic(char *filename, fb_info old_inf)$/;"	f
+display_part	disp-jpeg.c	/^int display_part(char *filename,int x, int y, fb_info fb_inf)$/;"	f
+display_retangle	ymqqq.c	/^int display_retangle(char *filename, fb_info fb_inf, int width, int hight, int startx, int starty)$/;"	f
+display_screen	disp-jpeg.c	/^int display_screen(char *filename, fb_info old_inf,int k)$/;"	f
+display_string	font.c	/^int display_string (const char * buf, int x, int y, fb_info fb_inf,u32_t color)$/;"	f
+draw_block	eros.c	/^void draw_block(fb_info fb_inf, int x, int y)$/;"	f
+draw_flag	eros.c	/^int draw_flag = 0;$/;"	v
+draw_next	eros.c	/^void draw_next(fb_info fb_inf, int num, int x, int y)$/;"	f
+draw_shape	eros.c	/^void draw_shape(fb_info fb_inf, int num, int x, int y)$/;"	f
+duration	mad.h	/^  mad_timer_t duration;			\/* audio playing time of frame *\/$/;"	m	struct:mad_header
+emphasis	mad.h	/^  enum mad_emphasis emphasis;		\/* de-emphasis to use (see above) *\/$/;"	m	struct:mad_header	typeref:enum:mad_header::mad_emphasis
+eros_r	eros.c	/^void eros_r(fb_info fb_inf, int width, int hight, int startx, int starty)$/;"	f
+eros_s	eros.c	/^void eros_s(fb_info fb_inf, int width, int hight, int startx, int starty)$/;"	f
+eros_save	eros.c	/^u8_t eros_save[768][1024 * 4];$/;"	v
+error	ccc.c	/^enum mad_flow error(void *data,$/;"	f	file:
+error	mad.h	/^  enum mad_error error;			\/* error code (see above) *\/$/;"	m	struct:mad_stream	typeref:enum:mad_stream::mad_error
+error_func	mad.h	/^  enum mad_flow (*error_func)(void *, struct mad_stream *, struct mad_frame *);$/;"	m	struct:mad_decoder	typeref:enum:mad_decoder::error_func
+face	font.c	/^static FT_Face face;$/;"	v	file:
+fb_drawcursor	mouse.c	/^int  fb_drawcursor(fb_info fb_inf, int x, int y)$/;"	f
+fb_info	common.h	/^}fb_info;$/;"	t	typeref:struct:__anon1
+fb_pixel	fb.c	/^int fb_pixel(fb_info fb_inf, int x, int y, u32_t color)$/;"	f
+fb_pixel_m	mouse.c	/^static int fb_pixel_m(fb_info fb_inf, int x, int y, u32_t color)$/;"	f	file:
+fb_pixel_row	fb.c	/^int fb_pixel_row(fb_info fb_inf, int x, int y, int len, u32_t color)$/;"	f
+fb_recover	eros.c	/^void fb_recover(fb_info fb_inf, int width, int hight, int startx, int starty)$/;"	f
+fb_restorecursor	mouse.c	/^int fb_restorecursor(fb_info fb_inf, int x, int y)$/;"	f
+fb_save	eros.c	/^void fb_save(fb_info fb_inf, int width, int hight, int startx, int starty)$/;"	f
+fb_savecursor	mouse.c	/^int  fb_savecursor (fb_info fb_inf,int x,int y)$/;"	f
+fb_test	fb.c	/^int fb_test(void)$/;"	f
+fbmem	common.h	/^	u8_t *fbmem;$/;"	m	struct:__anon1
+fbsize	ccc.c	/^    unsigned int  fbsize;         \/*indeed size of buffer*\/$/;"	m	struct:buffer	file:
+fbuf	ccc.c	/^    unsigned char fbuf[BUFSIZE];  \/*buffer*\/$/;"	m	struct:buffer	file:
+filename	link.c	/^	char *filename;$/;"	m	struct:node	file:
+filter	mad.h	/^  mad_fixed_t filter[2][2][2][16][8];	\/* polyphase filterbank outputs *\/$/;"	m	struct:mad_synth
+filter_func	mad.h	/^  enum mad_flow (*filter_func)(void *,$/;"	m	struct:mad_decoder	typeref:enum:mad_decoder::filter_func
+flag	ccc.c	/^int flag;$/;"	v
+flag1	start.c	/^int flag1 = 1;$/;"	v
+flag_scan	start.c	/^int flag_scan = 12;$/;"	v
+flags	mad.h	/^  int flags;				\/* flags (see below) *\/$/;"	m	struct:mad_header
+flen	ccc.c	/^    unsigned int  flen;           \/*file length*\/$/;"	m	struct:buffer	file:
+fly_left_right	ymqqq.c	/^int fly_left_right(char *filename, fb_info fb_inf)$/;"	f
+fly_multi	ymqqq.c	/^int fly_multi(char *filename, fb_info fb_inf)$/;"	f
+fontfile	font.c	/^static char *fontfile = "mao.ttf";$/;"	v	file:
+fp	ccc.c	/^    FILE  *fp;                    \/*file pointer*\/$/;"	m	struct:buffer	file:
+fpos	ccc.c	/^    unsigned int  fpos;           \/*current position*\/$/;"	m	struct:buffer	file:
+fraction	mad.h	/^  unsigned long fraction;	\/* 1\/MAD_TIMER_RESOLUTION seconds *\/$/;"	m	struct:__anon3
+frame	mad.h	/^    struct mad_frame frame;$/;"	m	struct:mad_decoder::__anon11	typeref:struct:mad_decoder::__anon11::mad_frame
+freerate	mad.h	/^  unsigned long freerate;		\/* free bitrate (fixed) *\/$/;"	m	struct:mad_stream
+game	pic_change.c	/^void game(fb_info fb_inf)$/;"	f
+game1	start.c	/^int game1[10];$/;"	v
+game2	start.c	/^int game2[10];$/;"	v
+glyph_index	font.c	/^static FT_UInt glyph_index;$/;"	v	file:
+grain	ymqqq.c	/^int grain(char *filename, fb_info fb_inf)$/;"	f
+h	common.h	/^	int h;				  \/* high *\/$/;"	m	struct:__anon1
+handle_flag	eros.c	/^int handle_flag = 0;$/;"	v
+header	mad.h	/^  struct mad_header header;		\/* MPEG audio header *\/$/;"	m	struct:mad_frame	typeref:struct:mad_frame::mad_header
+header_func	mad.h	/^  enum mad_flow (*header_func)(void *, struct mad_header const *);$/;"	m	struct:mad_decoder	typeref:enum:mad_decoder::header_func
+in	mad.h	/^    int in;$/;"	m	struct:mad_decoder::__anon10
+info	link.c	/^	char *info;$/;"	m	struct:node	file:
+init_fb	fb.c	/^int init_fb(fb_info *fb_inf)$/;"	f
+init_ft	font.c	/^int init_ft (const char *file, int size)$/;"	f
+init_link	link.c	/^int init_link(const char *pathname)$/;"	f
+input	ccc.c	/^enum mad_flow input(void *data,$/;"	f	file:
+input_func	mad.h	/^  enum mad_flow (*input_func)(void *, struct mad_stream *);$/;"	m	struct:mad_decoder	typeref:enum:mad_decoder::input_func
+jpeg_error_exit	jpeg.c	/^static void jpeg_error_exit (j_common_ptr cinfo) {$/;"	f	file:
+jpeg_file_t	link.c	/^typedef struct node jpeg_file_t;$/;"	t	typeref:struct:node	file:
+judge	eros.c	/^void *judge(fb_info *fb_inf)$/;"	f
+judge_game	start.c	/^int judge_game(fb_info fb_inf)$/;"	f
+judge_game2	start.c	/^int judge_game2(fb_info fb_inf)$/;"	f
+judge_music	start.c	/^int judge_music(fb_info fb_inf)$/;"	f
+judge_navi	start.c	/^int judge_navi(fb_info fb_inf)$/;"	f
+judge_next	start.c	/^int judge_next(fb_info fb_inf)$/;"	f
+judge_scan	start.c	/^int judge_scan(fb_info fb_inf)$/;"	f
+kk	ccc.c	/^int kk = 0;$/;"	v
+kkk	ccc.c	/^int kkk;$/;"	v
+last_palce1	start.c	/^int last_palce1;$/;"	v
+last_palce2	start.c	/^int last_palce2;$/;"	v
+last_pic	start.c	/^int last_pic;$/;"	v
+layer	mad.h	/^  enum mad_layer layer;			\/* audio layer (1, 2, or 3) *\/$/;"	m	struct:mad_header	typeref:enum:mad_header::mad_layer
+left	mad.h	/^  unsigned short left;$/;"	m	struct:mad_bitptr
+left_flag	eros.c	/^int left_flag = 0;$/;"	v
+length	mad.h	/^  unsigned short length;		\/* number of samples per channel *\/$/;"	m	struct:mad_pcm
+library	font.c	/^static FT_Library library;$/;"	v	file:
+line	eros.c	/^    int line[4];$/;"	m	struct:__anon2	file:
+load_image	ymqqq.c	/^void load_image(char *filename,fb_info fb_inf, int width, int hight)$/;"	f
+mad_bit_bitsleft	mad.h	549;"	d
+mad_bit_finish	mad.h	544;"	d
+mad_bitptr	mad.h	/^struct mad_bitptr {$/;"	s
+mad_decoder	mad.h	/^struct mad_decoder {$/;"	s
+mad_decoder_mode	mad.h	/^enum mad_decoder_mode {$/;"	g
+mad_decoder_options	mad.h	938;"	d
+mad_emphasis	mad.h	/^enum mad_emphasis {$/;"	g
+mad_error	mad.h	/^enum mad_error {$/;"	g
+mad_f_add	mad.h	151;"	d
+mad_f_fracpart	mad.h	146;"	d
+mad_f_fromint	mad.h	149;"	d
+mad_f_intpart	mad.h	145;"	d
+mad_f_mul	mad.h	160;"	d
+mad_f_mul	mad.h	172;"	d
+mad_f_mul	mad.h	177;"	d
+mad_f_mul	mad.h	207;"	d
+mad_f_mul	mad.h	283;"	d
+mad_f_mul	mad.h	467;"	d
+mad_f_mul	mad.h	469;"	d
+mad_f_mul	mad.h	482;"	d
+mad_f_mul_inline	mad.h	/^mad_fixed_t mad_f_mul_inline(mad_fixed_t x, mad_fixed_t y)$/;"	f
+mad_f_scale64	mad.h	161;"	d
+mad_f_scale64	mad.h	208;"	d
+mad_f_scale64	mad.h	240;"	d
+mad_f_scale64	mad.h	257;"	d
+mad_f_scale64	mad.h	315;"	d
+mad_f_scale64	mad.h	363;"	d
+mad_f_scale64	mad.h	422;"	d
+mad_f_scale64	mad.h	439;"	d
+mad_f_scale64	mad.h	511;"	d
+mad_f_scale64	mad.h	516;"	d
+mad_f_sub	mad.h	152;"	d
+mad_f_todouble	mad.h	142;"	d
+mad_f_tofixed	mad.h	140;"	d
+mad_fixed64_t	mad.h	83;"	d
+mad_fixed64_t	mad.h	85;"	d
+mad_fixed64hi_t	mad.h	/^typedef   signed int mad_fixed64hi_t;$/;"	t
+mad_fixed64hi_t	mad.h	/^typedef   signed long mad_fixed64hi_t;$/;"	t
+mad_fixed64lo_t	mad.h	/^typedef unsigned int mad_fixed64lo_t;$/;"	t
+mad_fixed64lo_t	mad.h	/^typedef unsigned long mad_fixed64lo_t;$/;"	t
+mad_fixed_t	mad.h	/^typedef   signed int mad_fixed_t;$/;"	t
+mad_fixed_t	mad.h	/^typedef   signed long mad_fixed_t;$/;"	t
+mad_flow	mad.h	/^enum mad_flow {$/;"	g
+mad_frame	mad.h	/^struct mad_frame {$/;"	s
+mad_header	mad.h	/^struct mad_header {$/;"	s
+mad_header_finish	mad.h	814;"	d
+mad_layer	mad.h	/^enum mad_layer {$/;"	g
+mad_mode	mad.h	/^enum mad_mode {$/;"	g
+mad_pcm	mad.h	/^struct mad_pcm {$/;"	s
+mad_sample_t	mad.h	/^typedef double mad_sample_t;$/;"	t
+mad_sample_t	mad.h	/^typedef mad_fixed_t mad_sample_t;$/;"	t
+mad_stream	mad.h	/^struct mad_stream {$/;"	s
+mad_stream_options	mad.h	717;"	d
+mad_synth	mad.h	/^struct mad_synth {$/;"	s
+mad_synth_finish	mad.h	868;"	d
+mad_timer_reset	mad.h	622;"	d
+mad_timer_sign	mad.h	626;"	d
+mad_timer_t	mad.h	/^} mad_timer_t;$/;"	t	typeref:struct:__anon3
+mad_units	mad.h	/^enum mad_units {$/;"	g
+main	main.c	/^int main(int argc, char *argv[]) $/;"	f
+main_data	mad.h	/^  unsigned char (*main_data)[MAD_BUFFER_MDLEN];$/;"	m	struct:mad_stream
+md_len	mad.h	/^  unsigned int md_len;			\/* bytes in main_data *\/$/;"	m	struct:mad_stream
+message_func	mad.h	/^  enum mad_flow (*message_func)(void *, void *, unsigned int *);$/;"	m	struct:mad_decoder	typeref:enum:mad_decoder::message_func
+mode	mad.h	/^  enum mad_decoder_mode mode;$/;"	m	struct:mad_decoder	typeref:enum:mad_decoder::mad_decoder_mode
+mode	mad.h	/^  enum mad_mode mode;			\/* channel mode (see above) *\/$/;"	m	struct:mad_header	typeref:enum:mad_header::mad_mode
+mode_extension	mad.h	/^  int mode_extension;			\/* additional mode info *\/$/;"	m	struct:mad_header
+mosaic	ymqqq.c	/^int mosaic(char *filename, fb_info fb_inf)$/;"	f
+mouse_event_t	mouse.c	/^}mouse_event_t;$/;"	t	typeref:struct:__anon12	file:
+mouse_event_t	mouse.h	/^}mouse_event_t;$/;"	t	typeref:struct:__anon13
+mouse_open	mouse.c	/^int mouse_open(char *device_name, int *fd)$/;"	f
+mouse_parse	mouse.c	/^int mouse_parse(const u8_t *buf, mouse_event_t* mevent)$/;"	f
+mp3_file	ccc.c	/^typedef struct buffer mp3_file;$/;"	t	typeref:struct:buffer	file:
+msg	main.c	/^unsigned int msg[4] = {0,300,0};$/;"	v
+mumode	start.c	/^char mumode[3][256] = {"顺序播放","随机播放"};$/;"	v
+mus	main.c	/^int *mus;$/;"	v
+music_flag	main.c	/^int music_flag[3];$/;"	v
+music_num	ccc.c	/^int music_num;$/;"	v
+musicplay	ccc.c	/^int musicplay(void)$/;"	f
+musnam	start.c	/^char musnam[15][256] = {"1大海","2老男孩","3李雷和韩梅梅","4同桌的你","5星星点灯"};$/;"	v
+navi_flag	start.c	/^int navi_flag;$/;"	v
+navigation	start.c	/^int navigation(fb_info fb_inf)$/;"	f
+next	link.c	/^	jpeg_file_t *next;$/;"	m	struct:node	file:
+next_calc	eros.c	/^int next_calc()$/;"	f
+next_flag	eros.c	/^int next_flag = 0;$/;"	v
+next_frame	mad.h	/^  unsigned char const *next_frame;	\/* start of next frame *\/$/;"	m	struct:mad_stream
+next_r	eros.c	/^void next_r(fb_info fb_inf, int width, int hight, int startx, int starty)$/;"	f
+next_s	eros.c	/^void next_s(fb_info fb_inf, int width, int hight, int startx, int starty)$/;"	f
+next_save	eros.c	/^u8_t next_save[200][200 * 4];$/;"	v
+node	link.c	/^struct node $/;"	s	file:
+obj	Makefile	/^obj = $(patsubst %.c, $(DIR)%.o, $(src))$/;"	m
+options	mad.h	/^  int options;				\/* decoding options (from stream) *\/$/;"	m	struct:mad_frame
+options	mad.h	/^  int options;				\/* decoding options (see below) *\/$/;"	m	struct:mad_stream
+options	mad.h	/^  int options;$/;"	m	struct:mad_decoder
+out	mad.h	/^    int out;$/;"	m	struct:mad_decoder::__anon10
+output	ccc.c	/^   enum mad_flow output(void *data,$/;"	f	file:
+output_func	mad.h	/^  enum mad_flow (*output_func)(void *,$/;"	m	struct:mad_decoder	typeref:enum:mad_decoder::output_func
+overlap	mad.h	/^  mad_fixed_t (*overlap)[2][32][18];	\/* Layer III block overlap data *\/$/;"	m	struct:mad_frame
+pcm	mad.h	/^  struct mad_pcm pcm;			\/* PCM output *\/$/;"	m	struct:mad_synth	typeref:struct:mad_synth::mad_pcm
+phase	mad.h	/^  unsigned int phase;			\/* current processing phase *\/$/;"	m	struct:mad_synth
+pic_num	start.c	/^int pic_num = 0;$/;"	v
+pid	mad.h	/^    long pid;$/;"	m	struct:mad_decoder::__anon10
+pipe_fd	main.c	/^int pipe_fd[2];$/;"	v
+pmutex	eros.c	/^pthread_mutex_t pmutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+predicate	eros.c	/^int predicate()$/;"	f
+prerate	ccc.c	/^unsigned int prerate =0;$/;"	v
+print_game	start.c	/^int print_game(fb_info fb_inf)$/;"	f
+private_bits	mad.h	/^  int private_bits;			\/* private bits (see below) *\/$/;"	m	struct:mad_header
+psize	font.c	/^static int psize = 32;$/;"	v	file:
+ptr	mad.h	/^  struct mad_bitptr ptr;		\/* current processing bit pointer *\/$/;"	m	struct:mad_stream	typeref:struct:mad_stream::mad_bitptr
+push	ymqqq.c	/^int push(char *filename, fb_info fb_inf)$/;"	f
+put_flag	eros.c	/^int put_flag = 0;$/;"	v
+putchar	ccc.c	35;"	d	file:
+rand_num	texiao.c	/^int rand_num(int k)$/;"	f
+rand_num2	texiao.c	/^int rand_num2(int k)$/;"	f
+random_grating	ymqqq.c	/^int random_grating(char *filename, fb_info fb_inf)$/;"	f
+read_pipe	main.c	/^void *read_pipe(void*arg)$/;"	f
+rgb24to16	jpeg.c	/^u16_t * rgb24to16(u8_t *buf24, fb_info jpeg_inf)$/;"	f
+rgb24to32	jpeg.c	/^u32_t * rgb24to32(u8_t *buf24, fb_info jpeg_inf)$/;"	f
+right_flag	eros.c	/^int right_flag = 0;$/;"	v
+rotate	ymqqq.c	/^int rotate(char *filename,char *filename2, fb_info fb_inf)$/;"	f
+s_font_utf8_to_unicode	font.c	/^static u16_t s_font_utf8_to_unicode (const unsigned char *utf8, int *len)$/;"	f	file:
+samplerate	mad.h	/^  unsigned int samplerate;		\/* sampling frequency (Hz) *\/$/;"	m	struct:mad_header
+samplerate	mad.h	/^  unsigned int samplerate;		\/* sampling frequency (Hz) *\/$/;"	m	struct:mad_pcm
+samples	mad.h	/^  mad_fixed_t samples[2][1152];		\/* PCM output samples [ch][sample] *\/$/;"	m	struct:mad_pcm
+save	eros.c	/^u8_t save[768][1024 * 4];$/;"	v
+save	ymqqq.c	/^u8_t save[768][1024 * 4];$/;"	v
+save_cursor	mouse.c	/^static unsigned long save_cursor[C_WIDTH * C_HEIGHT];$/;"	v	file:
+sbsample	mad.h	/^  mad_fixed_t sbsample[2][36][32];	\/* synthesis subband filter samples *\/$/;"	m	struct:mad_frame
+scale	ccc.c	/^signed int scale(mad_fixed_t sample)$/;"	f	file:
+scale24	jpeg.c	/^u8_t * scale24(u8_t *buf24, fb_info new_inf, fb_info jpeg_inf)$/;"	f
+scale_buf	ymqqq.c	/^u8_t *scale_buf;$/;"	v
+scan	ymqqq.c	/^int scan(char *filename, fb_info fb_inf)$/;"	f
+scan_menu	start.c	/^int scan_menu(fb_info fb_inf)$/;"	f
+score	eros.c	/^} score;$/;"	t	typeref:struct:__anon2	file:
+score_r	eros.c	/^void score_r(fb_info fb_inf, int width, int hight, int startx, int starty)$/;"	f
+score_s	eros.c	/^void score_s(fb_info fb_inf, int width, int hight, int startx, int starty)$/;"	f
+score_save	eros.c	/^u8_t score_save[100][100 * 4];$/;"	v
+scr	eros.c	/^score scr;$/;"	v
+seconds	mad.h	/^  signed long seconds;		\/* whole seconds *\/$/;"	m	struct:__anon3
+set_dsp	ccc.c	/^void set_dsp()$/;"	f
+shape	eros.c	/^const char shape[11][4] = {{4,5,9,13}, {10,12,13,14}, {4,8,12,13}, {8,9,10,12}, $/;"	v
+shutter	ymqqq.c	/^int shutter(char *filename, fb_info fb_inf)$/;"	f
+skiplen	mad.h	/^  unsigned long skiplen;		\/* bytes to skip before next frame *\/$/;"	m	struct:mad_stream
+soundfd	ccc.c	/^int soundfd;                 \/*soundcard file*\/$/;"	v
+src	Makefile	/^src = $(wildcard *.c)$/;"	m
+start	start.c	/^void start(fb_info fb_inf)$/;"	f
+stream	mad.h	/^    struct mad_stream stream;$/;"	m	struct:mad_decoder::__anon11	typeref:struct:mad_decoder::__anon11::mad_stream
+sync	mad.h	/^  int sync;				\/* stream sync found *\/$/;"	m	struct:mad_stream
+sync	mad.h	/^  } *sync;$/;"	m	struct:mad_decoder	typeref:struct:mad_decoder::__anon11
+synth	mad.h	/^    struct mad_synth synth;$/;"	m	struct:mad_decoder::__anon11	typeref:struct:mad_decoder::__anon11::mad_synth
+t_score	eros.c	/^int t_score = 0;$/;"	v
+target	Makefile	/^target = $(TAR_DIR)main$/;"	m
+test	eros.c	/^void test(fb_info fb_inf)$/;"	f
+test_mouse	mouse.c	/^int test_mouse(fb_info fb_inf)$/;"	f
+texiao	texiao.c	/^int texiao(fb_info fb_inf)$/;"	f
+texiao1_rive	texiao.c	/^int texiao1_rive(char *filename, fb_info fb_inf)$/;"	f
+texiao2_sector	texiao.c	/^int texiao2_sector(char *filename, fb_info fb_inf)$/;"	f
+texiao3_rain	texiao.c	/^int texiao3_rain(char *filename, fb_info fb_inf)$/;"	f
+texiao4_spark	texiao.c	/^int texiao4_spark(char *filename, fb_info fb_inf)$/;"	f
+texiao5	texiao.c	/^int texiao5(char *filename, fb_info fb_inf)$/;"	f
+texiao6_heart	texiao.c	/^int texiao6_heart(char *filename, fb_info fb_inf)$/;"	f
+texiao7_circle	texiao.c	/^int texiao7_circle(char *filename, fb_info fb_inf)$/;"	f
+texiao8_square	texiao.c	/^int texiao8_square(char *filename, fb_info fb_inf)$/;"	f
+texiao9_wave	texiao.c	/^int texiao9_wave(char *filename, fb_info fb_inf)$/;"	f
+this_frame	mad.h	/^  unsigned char const *this_frame;	\/* start of current frame *\/$/;"	m	struct:mad_stream
+total_line	eros.c	/^    int total_line;$/;"	m	struct:__anon2	file:
+total_score	eros.c	/^    int total_score;$/;"	m	struct:__anon2	file:
+tremor	ymqqq.c	/^int tremor(char *filename, fb_info fb_inf)$/;"	f
+u16_t	common.h	/^typedef unsigned short u16_t;$/;"	t
+u32_t	common.h	/^typedef unsigned int u32_t;$/;"	t
+u8_t	common.h	/^typedef unsigned char u8_t;$/;"	t
+u_char	jpeg.c	23;"	d	file:
+unload_image	ymqqq.c	/^void unload_image(void)$/;"	f
+vacum	ymqqq.c	/^int vacum(char *filename, char *filename2, fb_info fb_inf)$/;"	f
+verify_flag	eros.c	/^int verify_flag = 0;$/;"	v
+vertical_grating	ymqqq.c	/^int vertical_grating(char *filename, fb_info fb_inf)$/;"	f
+w	common.h	/^	int w;				  \/* width *\/$/;"	m	struct:__anon1
+writedsp	ccc.c	/^int writedsp(int c)$/;"	f
+x	mouse.c	/^	int x;$/;"	m	struct:__anon12	file:
+x	mouse.h	/^	int x;$/;"	m	struct:__anon13
+x_now	eros.c	/^int x_now = 0, y_now = 0;$/;"	v
+x_offset	eros.c	/^int x_offset = 0;$/;"	v
+x_ori	eros.c	/^int x_ori = 0, y_ori = 0;$/;"	v
+x_timer	eros.c	/^void *x_timer()$/;"	f
+xiaoshi	disp-jpeg.c	/^int xiaoshi(fb_info fb_inf)$/;"	f
+y	mouse.c	/^	int y;$/;"	m	struct:__anon12	file:
+y	mouse.h	/^	int y;$/;"	m	struct:__anon13
+y_now	eros.c	/^int x_now = 0, y_now = 0;$/;"	v
+y_offset	eros.c	/^int y_offset = 0;$/;"	v
+y_ori	eros.c	/^int x_ori = 0, y_ori = 0;$/;"	v
+y_timer	eros.c	/^void *y_timer(fb_info *fb_inf)$/;"	f
+zitixianshi	main.c	/^char *zitixianshi[]={"回到过去","那些逝去的日子","一去不复返了","80后的回忆","一辈子不会忘记","THE END","制作者","第二组","姚明月 高金龙 范振平 李晓龙"};$/;"	v
